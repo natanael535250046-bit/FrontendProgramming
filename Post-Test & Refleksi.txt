@@ -1,0 +1,31 @@
+1. Apa fungsi utama HTML?
+    HTML (HyperText Markup Language) merupakan fondasi utama dari sebuah website. Tanpa HTML, browser tidak mampu menampilkan teks, gambar, tautan, atau elemen lain yang biasa kita lihat ketika membuka halaman web. HTML bukanlah bahasa pemrograman, melainkan bahasa markup yang digunakan untuk mendefinisikan struktur halaman web. Hampir semua situs di internet dibangun dengan HTML, menjadikannya keterampilan dasar yang wajib dipelajari oleh setiap web developer.
+
+2. Apa fungsi utama CSS?
+    CSS adalah bahasa yang digunakan untuk mendesain tampilan halaman web. CSS diciptakan untuk memisahkan konten halaman web dari presentasinya, seperti tata letak, warna, dan font. Dengan CSS, pengembang dapat membuat halaman web yang lebih konsisten dan mudah dikelola. CSS pertama kali diperkenalkan oleh World Wide Web Consortium (W3C) pada tahun 1996 dan sejak saat itu, CSS telah menjadi standar dalam pengembangan web modern.
+
+3. Mengapa external CSS digunakan?
+    Pemisahan Struktur dan Style yang Sempurna: HTML hanya berisi struktur, dan CSS hanya berisi style. Ini adalah cara terbaik untuk membuat kode Anda tampak clean, terorganisir, dan mudah dibaca (prinsip separation of concerns).
+    Efisiensi dan Kemudahan Maintenance: Inilah selling point utamanya. Anda bisa mengontrol style dari ratusan halaman website hanya dengan mengedit satu file .css. Jika Anda ingin mengubah warna footer di 50 halaman, Anda hanya perlu mengedit satu baris kode.
+    Browser Caching (Kecepatan Loading): Setelah browser memuat file .css di kunjungan pertama, ia akan menyimpan (cache) file tersebut. Ketika pengguna membuka halaman lain di website Anda, browser tidak perlu mengunduh style lagi, sehingga halaman dimuat jauh lebih cepat. Ini akan memberikan dampak positif pada User Experience (UX) dan bahkan SEO.
+    Kolaborasi Tim: Metode ini sangat memudahkan kolaborasi, terutama jika Anda bekerja dalam tim yang besar, di mana satu orang bisa fokus pada file HTML, dan yang lain fokus pada file CSS.
+
+4. Apa fungsi <header>, <nav>, <article>, dan <footer>?
+<header>, 
+Element <header> digunakan untuk menampung konten pengantar atau navigasi. Biasanya berisi logo, judul website, dan menu navigasi utama.
+
+<nav>, 
+Element <nav> khusus digunakan untuk menampung link navigasi utama website. Tidak semua kumpulan link harus menggunakan <nav>, hanya navigasi utama saja.
+
+<article>, 
+<article> untuk konten yang berdiri sendiri dan dapat didistribusikan secara independen, seperti posting blog atau berita.
+
+<footer>
+Element <footer> berisi informasi tambahan seperti copyright, link sosial media, kontak, dan informasi perusahaan.
+
+5. Sebutkan satu perubahan CSS yang Anda lakukan pada latihan.
+    Saya Mengubah warna pada template website sebelumnya, selain itu saya menambahkan box-shadow, merubah nav menjadi tombol dan membuat nav menjadi interaktif dengan hover 
+
+Refleksi: bagian mana yang sudah dikuasai dan bagian mana yang masih perlu dilatih?
+    bagian yang sudah dikuasai merupakan dasarnya html dan css berikut yang perlu dilatih adalah bagaimana menyisipkan gambar dan video
+    
