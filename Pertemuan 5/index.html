@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- biar layout aman di hp -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <!-- sambungkan ke file css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- untuk menampilkan judul -->
+    <header>
+        <h1>Profil Mahasiswa</h1>
+        <p>Belajar Pemrograman Antarmuka Pengguna & Portfolio</p>
+    </header>
+
+    <!-- tombol-tombol menu -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- flexbox untuk mengatur kiri-kanan -->
+    <div class="media-container">
+        <!-- sisi kiri -->
+        <div class="left-column">
+            <!-- foto dan info mahasiswa -->
+            <article>
+                <img id="Profile" class="profile-image" src="Profile.jpeg" alt="Profile">
+                <h2>About Me </h2>
+                <p> <strong> Nama: </strong> Natanael Gunawan </p>
+                <p class="program-studi">
+                    <strong>Program Studi:</strong> Teknik Informatika (Semester 3)
+                </p>
+                <p>
+                    <strong>NIM:</strong> 535250046 
+                </p>
+            </article>
+
+            <!-- kata-kata pembuka website -->
+            <article>
+                <h2>Selamat Datang</h2>
+                <p class="description"> 
+                    <strong> Halo! </strong> Terima kasih sudah mengunjungi website saya. Di sini, Anda bisa melihat lebih dekat perjalanan belajar saya di dunia pemrograman dan berbagai minat saya yang lain, serta proyek-proyek yang sudah selesai maupun yang masih in progress.
+                </p>
+            </article>
+        </div>   
+        
+        <!-- sisi kanan -->
+        <div class="right-column">
+            <!-- Keahlian dan minat -->
+            <article>
+                <h2> Keahlian & Minat </h2>
+                <ul>
+                    <li><Strong>Backend Development (Node.js)</Strong></li>
+                    <li><Strong>Data Mining (MatLab)</Strong></li>
+                    <li><Strong>Database (SQL) </Strong></li>
+                </ul>
+                <p class="Link">
+                    <Strong> Kunjungi <a href="https://github.com/natanael535250046-bit" target="_blank" class="action-link"> GitHub </a> untuk melihat repository proyek saya!. </Strong>
+                </p>
+            </article>
+
+            <!-- info kontak -->
+            <article>
+                <h2> Contact </h2>
+                <div class="contact-item">
+                    <img id="Call" class="call-image" src="Call.jpg" alt="Call">
+                    <span>+62 812-900-200</span> 
+                </div>
+
+                <div class="contact-item">
+                    <img id="Email" class="email-image" src="Email.jpg" alt="Email">
+                    <span>JohnSmith@Gmail.com</span> 
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- hak cipta -->
+    <footer>
+        <p>&copy; 2025-2026. All rights reserved. Developed by Natanael Gunawan. </p>
+    </footer>
+
+</body>
+</html>
