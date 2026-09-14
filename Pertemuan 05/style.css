@@ -1,0 +1,151 @@
+/* reset margin website dan set warna background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffb5b5;
+    color: #333333;
+}
+
+/* menyesuaikan ukuran text pada header */
+header {
+    padding: 20px 20px;
+    text-align: right;
+    font-size: larger;
+    background: #132743;
+    color: #ffffff;
+}
+
+/* memposisikan tombol menu */
+nav {
+    padding: 15px;
+    background: #407088;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* membuat link terlihat seperti tombol bukan hanya teks */
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* bikin tombol interaktif saat di hover */
+nav a:hover {
+    background-color: #132743;
+    color: #ffffff;
+}
+
+/* memberi jarak pada teks deskripsi */
+.description {
+    margin-bottom: 25px;
+}
+
+/* membuat article terlihat seperti kartu */
+article {
+    padding: 40px;
+    margin: auto;
+    background-color: #fcf8f3;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* menyamakan warna seperti header */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #132743;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+/* sejajarkan teks dengan icon email dan telepon */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* membuat icon email dan telepon terlihat lebih kecil */
+.call-image,
+.email-image {
+    height: 20px;
+    width: 20px;
+    /* display: block; */
+    /* justify-content: left; */
+    border-radius: 50px;
+    object-fit: contain;
+    /* margin-bottom: 20px; */
+}
+
+/* membuat foto profile gede dan rapih */
+.profile-image {
+    height: 200px;
+    width: 200px;
+    display: block;
+    justify-content: center;
+    border-radius: 50px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+/* kontainer utama */
+.media-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+/* membagi dua ukuran rata kiri dan kanan */
+.left-column,
+.right-column {
+    flex: 1;
+}
+
+/* kalo dibuka di tablet mentok 1024px */
+@media (max-width: 1024px) {
+  .media-container {
+    gap: 10px;
+    padding: 0 10px;      
+  }
+  article {
+    padding: 25px;
+  }
+}
+
+/* kalo dibuka di hp layar mentok 768px */
+@media (max-width: 768px) {
+  .media-container {
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  /* bikin kolomnya menuhin layar hp */
+  .left-column,
+  .right-column{
+    width: 100%;
+  }
+
+  /* teks header di tengahin */
+  header {
+    text-align: center;
+  }
+
+  /* kalo tombol menu terlalu panjang otomatis turun ke baris baru  */
+  nav {
+    flex-wrap: wrap;
+  }
+}
